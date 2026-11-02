@@ -1,6 +1,6 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: Michael Ryan Docs
+  title: MichaelRyan
   structure:
     - type: space
       key: space-1
