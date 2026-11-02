@@ -1,32 +1,11 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-title: Documentation Portal
-structure:
-- type: section
-key: core-docs
-title: Core Documentation
-path: core
-children:
-- type: space
-key: getting-started
-title: Getting Started
-path: getting-started
-content:
-directory: ./docs/getting-started
-- type: space
-key: user-guide
-title: User Guide
-path: user-guide
-content:
-directory: ./docs/user-guide
-- type: section
-key: developer-docs
-title: Developers
-path: developers
-children:
-- type: space
-key: api-reference
-title: API Reference
-path: api-reference
-content:
-directory: ./docs/api
+  title: Michael Ryan Docs
+  structure:
+    - type: space
+      key: space-1
+      title: Docs
+      path: docs
+      default: true
+      content:
+        directory: ./docs
